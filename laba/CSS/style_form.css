@@ -11,14 +11,18 @@
 * {
     font-family: Noto Sans;
 }
-
+body{
+    background: repeating-linear-gradient(47deg, #484f8f, #606dbc 10px, #5f77d6 10px, #465298 20px);
+}
 .form_1 {
+  
     margin: 0 auto;
     padding-left: 25px;
     padding-bottom: 25px;
     width: 500px;
     border-radius: 50px;
-    background: tan;
+    background: radial-gradient(circle at 65% 15%, #a2e0ff, #0a3e87);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
 }
 
 h1 {

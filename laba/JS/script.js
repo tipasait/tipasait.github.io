@@ -3,7 +3,7 @@ document.getElementById("pass_t").addEventListener('focusout', a, false);
 document.getElementById("Check").addEventListener('click', check, false);
 var as = document.querySelectorAll(".qw");
 for (var i = 0; i < as.length; i++) {
-    as[i].addEventListener('keydown', prov, false);
+    as[i].addEventListener('keyup', prov, false);
 }
 
 function prov() {
