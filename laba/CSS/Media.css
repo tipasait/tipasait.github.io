@@ -1,7 +1,6 @@
 .menu [type="checkbox"] {
     display: none;
 }
-
 .menu_c {
     background: #cccccc;
     padding: 0 5vw 15px 5vw;
@@ -11,7 +10,6 @@
     display: none;
     position: fixed;
 }
-
 
 @media (max-width: 992px) {
     .Grid {

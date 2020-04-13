@@ -30,7 +30,7 @@
     justify-content: center;
 }
 
-.menu > ul li a {
+.menu > ul li a{
     display: block;
     background: #cccccc;
     padding: 0 5vw 15px 5vw;
@@ -64,17 +64,17 @@
     top: 0;
     left: 0;
     height: 300px;
-    background: url('../Img/playstation.jpg');
+    background: url('../Img/playstation_a.jpg');
     background-size: cover;
 }
-
 .box {
 font-size: 20px;
     margin-bottom: 15px;
     max-width: 85%;
-    background: rgb(89, 184, 255);;
+    background: rgb(89, 184, 255);
    border-radius: 15px;
     padding: 1em;
+
 }
 
 .Grid {
@@ -123,6 +123,7 @@ td {
 }
 
 tr:hover td {
+    color: #A5260A;
     background: #9b9be0;
 }
 
@@ -156,6 +157,7 @@ input.tema_c:checked ~.tema_1{
 }
 
 input.tema_c:checked ~.tema_1 .tema{
+    margin-left: 10px;
     box-shadow: none;
     background: #d4af37;
 }
@@ -165,10 +167,17 @@ input.tema_c:checked ~.tema_1 .tema{
 }
 .Img_3 img{
     width: 100%;
+    border-radius: 50px;
+    transition: 500ms;
 }
+.Img_3 img:hover{
+    transition: 500ms;
+    border-radius:0;
+}
+
 .Img_3 h3{
     text-align: center;
-    color: #2a2a2a;
+    color: #ad0000;
 }
 h2{
     text-align: center;
