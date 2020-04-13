@@ -9,7 +9,7 @@
 }
 @font-face {
     font-family: 'Merriweather';
-    src: url("/Font/Merriweather-Italic.ttf");
+    src: url("../Font/Merriweather-Italic.ttf");
 }
 
 * {
@@ -148,7 +148,7 @@ video {
     margin-right: 10px;
     opacity: 1;
     width: 30px;
-    height: 30px;
+    height: 31.5px;
     border-radius: 50%;
     box-shadow: 7px 4px 0 0 rgb(110, 238, 255);
 }
